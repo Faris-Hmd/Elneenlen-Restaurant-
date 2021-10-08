@@ -1,0 +1,234 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+  <head>
+	<link rel="stylesheet" href="../CSS/colors.css">
+    <link rel="stylesheet" href="../CSS/product-d.css">
+<link rel="stylesheet" href="../CSS/nav-bar.css">
+<link rel="stylesheet" href="../CSS/fontawesome-free-5.15.4-web/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.all.min.js"></script>
+    <script type="text/javascript" src="../JS/restrurant.js">
+    </script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <title></title>
+  </head>
+  <body>
+<div class="backHeader"></div>
+<header>
+	<div class="nav-bar">
+<ul class="">
+  <li onclick="side()" id="side-close-btn"><i class="fa fa-bars fa-2x"></i></li>
+ <li onclick="darkMode()"><i class="far fa-adjust fa-2x"></i></li>
+	<li onclick="showSearchbar()"><i class="far fa-search fa-2x"></i></li>
+</ul>
+	        <span class="logo ">
+   <span>El</span>neelen
+        </span>
+	</div>
+	<form id="" class="searchForm">
+		<input type="text" placeholder="Burger, Pizza, Fish, drinks,...etc">
+		<input type="submit" value="Search">
+	</form>
+		<div id="side-menu">
+		
+		<div class="user">
+		  <img src="../image/IMG_5189.JPG">
+		<div class="userName"><i class=""></i>@faris Hmd</div>
+		  <div class="userDetailContainer">
+		<div class="userDetail">In Order:<span> 12</span></div>
+		<div class="userDetail">Wishlist:<span> 15</span></div>
+		  </div>
+		</div>
+		<div class="windos"><a href="../index.html"><i class="fa fa-pull-left fa-home fa-fw fa-lg"></i>Home</a></div>
+		<div class="windos"><a href="menu.html"><i class="fa fa-pull-left fa-list-alt fa-fw fa-lg"></i>Menu</a></div>
+	<div class="type active"><a href="burger.html">Burger</a></div>
+	<div class="type"><a href="pizza.html">Pizza</a></div>
+	<div class="type"><a href="sandwich.html">Sandwich</a></div>
+	<div class="type"><a href="colddrink.html">Cold Drink</a></div>
+	<div class="type"><a href="hotdrink.html">Hot Drink</a></div>
+	<div class="type"><a href="fish.html">Fish</a></div>
+		<div class="type"><a href="burger.html">Burger</a></div>
+	<div class="type"><a href="pizza.html">Pizza</a></div>
+	<div class="type"><a href="sandwich.html">Sandwich</a></div>
+	<div class="type"><a href="colddrink.html">Cold Drink</a></div>
+		<div class="windos"><a href="#"><i class="far fa-pull-left fa-user fa-fw fa-lg"></i>User</a></div>
+		<div class="windos"><a href="#"><i class="far fa-pull-left fa-clipboard fa-fw fa-lg"></i>OrderList</a></div>
+		<div class="windos"><a href="#"><i class="far fa-pull-left fa-heart fa-fw fa-lg"></i>Wishlist</a></div>
+		<div class="windos"><a href="#"><i class="far fa-pull-left fa-sign-out-alt fa-fw fa-lg"></i>Sign Out</a></div>
+</header>
+      <div class="contener-d" id="product-1">
+
+        <div class="product-d">
+            <div class="quantity" id="1">0</div>
+          <div>
+            <img class="image" src="../image/bbq burger.jpeg">
+          </div>
+          <div class="desc">BBQ Burger</div>
+<div class="rating">rating: 4.3 / 5</div>
+
+          <div class="cost">Cost: 1500$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(1, 1500)"><i class="fa fa-angle-left"></i></div>
+
+            <div class="increase" onclick="icr(1, 1500)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+
+        <div class="product-d">
+  <div class="quantity" id="2">0</div>
+          <div>
+            <img class="image" src="../image/Braised Oxtail Burger .jpeg">
+          </div>
+          <div class="desc">Braised Oxtail Burger</div>
+<div class="rating">rating: 4.3 / 5</div>
+
+          <div class="cost">Cost: 1000$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(2, 1000)"><i class="fa fa-angle-left"></i></div>
+          
+            <div class="increase" onclick="icr(2, 1000)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+
+        <div class="product-d">
+            <div class="quantity" id="3">0</div>
+          <div>
+            <img class="image" src="../image/Turkey burger.jpeg">
+          </div>
+          <div class="desc">Turkey burger</div>
+<div class="rating">rating: 4.3</div>
+
+          <div class="cost">Cost: 800$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(3, 800)"><i class="fa fa-angle-left"></i></div>
+
+            <div class="increase" onclick="icr(3, 800)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+
+        <div class="product-d">
+  <div class="quantity" id="4">0</div>
+          <div>
+            <img class="image" src="../image/steak burger.jpeg">
+          </div>
+          <div class="desc">Steak Burger</div>
+<div class="rating">rating: 4.3 / 5</div>
+
+          <div class="cost">Cost: 1200$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(4, 1200)"><i class="fa fa-angle-left"></i></div>
+          
+            <div class="increase" onclick="icr(4, 1200)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+
+        <div class="product-d">
+  <div class="quantity" id="5">0</div>
+          <div>
+            <img class="image" src="../image/Steakhouse Burger .jpeg">
+          </div>
+          <div class="desc">Steakhouse Burger </div>
+<div class="rating">rating: 4.3 / 5</div>
+          <div class="cost">Cost: 1200$</div>
+          <div class="counter-d">
+
+            <div class="decrease" onclick="dcr(5, 1200)"><i class="fa fa-angle-left"></i></div>
+          
+            <div class="increase" onclick="icr(5, 1200)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+
+        <div class="product-d">
+            <div class="quantity" id="6">0</div>
+          <div>
+            <img class="image" src="../image/bbq burger.jpeg">
+          </div>
+          <div class="desc">BBQ Burger</div>
+<div class="rating">rating: 4.3 / 5</div>
+
+          <div class="cost">Cost: 1500$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(6, 1500)"><i class="fa fa-angle-left"></i></div>
+
+            <div class="increase" onclick="icr(6, 1500)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+
+        <div class="product-d">
+  <div class="quantity" id="7">0</div>
+          <div>
+            <img class="image" src="../image/Braised Oxtail Burger .jpeg">
+          </div>
+          <div class="desc">Braised Oxtail Burger</div>
+<div class="rating">rating: 4.3 / 5</div>
+
+          <div class="cost">Cost: 1000$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(7, 1000)"><i class="fa fa-angle-left"></i></div>
+          
+            <div class="increase" onclick="icr(7, 1000)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+        <div class="product-d">
+  <div class="quantity" id="10">0</div>
+          <div>
+            <img class="image" src="../image/steak burger.jpeg">
+          </div>
+          <div class="desc">Steak Burger</div>
+<div class="rating">rating: 4.3 / 5</div>
+
+          <div class="cost">Cost: 1200$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(10, 1200)"><i class="fa fa-angle-left"></i></div>
+          
+            <div class="increase" onclick="icr(10, 1200)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+        <div class="product-d">
+            <div class="quantity" id="8">0</div>
+          <div>
+            <img class="image" src="../image/Turkey burger.jpeg">
+          </div>
+          <div class="desc">Turkey burger</div>
+<div class="rating">rating: 4.3</div>
+
+          <div class="cost">Cost: 800$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(8, 800)"><i class="fa fa-angle-left"></i></div>
+
+            <div class="increase" onclick="icr(8, 800)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+
+        <div class="product-d">
+  <div class="quantity" id="9">0</div>
+          <div>
+            <img class="image" src="../image/steak burger.jpeg">
+          </div>
+          <div class="desc">Steak Burger</div>
+<div class="rating">rating: 4.3 / 5</div>
+
+          <div class="cost">Cost: 1200$</div>
+          <div class="counter-d">
+            <div class="decrease" onclick="dcr(9, 1200)"><i class="fa fa-angle-left"></i></div>
+          
+            <div class="increase" onclick="icr(9, 1200)"><i class="fa fa-angle-right"></i></div>
+          </div>
+        </div>
+      </div>
+	<div class="navgate-contener">
+		<div class="navgate"><a href="#html"><i class="fa fa-angle-left fa-lg fa-fw"></i>Previuos</a></div>
+		<div class="navgate"><a href="#home">Next<i class="fa fa-angle-right fa-lg fa-fw"></i></a></div>
+	</div>
+		<iframe width="100%" style="border:none;"src="footer.html"></iframe>
+
+
+  </body>
+
+</html>
