@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-:root {
-	--box-shadow: #888;
-}
-
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-.darkMode{
-	--box-shadow: #111;
 }
 body {	
 	background-color: var(--primary-clr);
@@ -39,12 +31,12 @@ form {
 
 
 .label{
+	margin-top: 70px;
     font-size:30px;
 	margin-left:10px;
 }
 .product-c {
     width:100%;
-    margin-top:40px;
 	display:flex;
 	flex-wrap:wrap;
 }
@@ -57,7 +49,7 @@ form {
 	margin: 15px auto;
 	border-radius: 10px;
 	transition: all 500ms;
-	box-shadow: -5px 5px 10px var(--box-shadow);
+	box-shadow: -5px 5px 10px var(--shadow-clr);
 	overflow: hidden;
 	background: var(--product-clr);
 
