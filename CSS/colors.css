@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+body{
+font-family: 'Nunito', sans-serif;
+}
 :root{
 	--light-clr: hsla(27, 70%, 75%, 100%);
 	--dark-clr: hsla(27, 80%, 50%, 90%);
-	--primary-clr: f4f4f4;
+	--primary-clr: red;
 	--shadow-clr: #888;
 	--text-clr: #222;
 	--product-clr: hsla(30, 100%, 95%, 100%);
@@ -17,6 +21,6 @@
 	--primary-clr: hsla(30, 10%, 15%, 100%);
 	--light-clr: hsla(27, 70%, 20%, 100%);
 	--shadow-clr: #111;
-	--text-clr: #f4f4f4;
+	--text-clr: #eee;
 	--product-clr: hsla(30, 10%, 18%, 100%);
 }
