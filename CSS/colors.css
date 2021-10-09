@@ -5,7 +5,7 @@ font-family: 'Nunito', sans-serif;
 :root{
 	--light-clr: hsla(27, 70%, 75%, 100%);
 	--dark-clr: hsla(27, 80%, 50%, 90%);
-	--primary-clr: red;
+	--primary-clr: #f4f4f4;
 	--shadow-clr: #888;
 	--text-clr: #222;
 	--product-clr: hsla(30, 100%, 95%, 100%);
