@@ -34,7 +34,6 @@ body{
 
 .product-d {
 	color: var(--text-clr);
-
 	margin: 15px auto;
 	text-transform:capitalize;
 	border-radius: 10px;
@@ -90,8 +89,8 @@ body{
 
 .counter-d {
 	display:flex;
-	justify-content: right;
-	margin-left: 45%;
+	width:100%;
+	justify-content: flex-end;
 	
 }
 
