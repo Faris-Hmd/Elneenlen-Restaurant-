@@ -1,8 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
-body{
-font-family: 'Nunito', sans-serif;
-}
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -34,6 +29,7 @@ body{
 
 .product-d {
 	color: var(--text-clr);
+
 	margin: 15px auto;
 	text-transform:capitalize;
 	border-radius: 10px;
@@ -89,9 +85,11 @@ body{
 
 .counter-d {
 	display:flex;
-	width:100%;
-	justify-content: flex-end;
-	}
+	justify-content: right;
+	margin-left: 45%;
+	
+}
+
 .increase,.decrease{
 	padding: 0px 15px;
 	margin: 0 3px 10px 3px;

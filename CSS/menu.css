@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
-body{
-font-family: 'Nunito', sans-serif;
-}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -12,11 +9,13 @@ body {
 	width:100%;
 	margin:0;
 	padding:0;
+	
 }
 .nav-frame, .footer-frame{
 	width:100%;
 	border:none;
 	height:100px;
+		scroll-behavior: smooth;
 }
 .nav-frame{
 	position:fixed;
@@ -33,7 +32,7 @@ form {
 	margin-top: 70px;
     font-size:30px;
 	margin-left:10px;
-    color: var(--text-clr);
+	color: var(--text-clr);
 }
 .product-c {
     width:100%;
@@ -51,7 +50,7 @@ form {
 	transition: all 500ms;
 	box-shadow: -5px 5px 10px var(--shadow-clr);
 	overflow: hidden;
-	background: var(--product-clr);
+
 
 }
 .product:hover{
@@ -75,7 +74,7 @@ form {
 	backdrop-filter: blur(10px);
 	background: hsla(30, 100%, 50%, 80%);
 	font-weight:800;
-	font-size:15px;
+	font-size:20px;
 	padding: 5px;
 	margin: auto;
 	color: #fff;
