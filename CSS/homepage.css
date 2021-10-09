@@ -15,7 +15,7 @@ body {
 .container{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evanly;
+	justify-content: space-around;
 	width: 100%;
 }
 
@@ -29,14 +29,14 @@ body {
 .nav-con{
 	padding: 15px;
 	color: white;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 600;
 	text-shadow: 1px 1px 20px white;
 }
 
 .sideOne, .sideTwo{
 	width: 100%;
-	position: ralative;
+	position: relative;
 }
 
 .sideOne {
@@ -54,7 +54,7 @@ body {
 	text-align:center;
 	font-weight:bold;
 	
-	font-size:1em;
+	font-size:0.7em;
 	color:white;
 	margin: 0;
 	padding: 20px;
@@ -62,7 +62,6 @@ body {
 	padding-bottom: 40px;
 	width: 100%;
 	height: 100%;
-	border-radius: 0,0,10px ,10px;
 }
 
 .txt h1{
@@ -86,7 +85,7 @@ body {
 	text-decoration:none;
 	border-radius:10px;
 	padding:15px;
-	font-size:20px;
+	font-size:0.8em;
 	font-weight:bolder;
 	transition: transform 500ms;
 	display:block;
@@ -139,7 +138,7 @@ form{
 	margin: 20px auto;
 	border-radius: 15px;
 	color: #444;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 #signUp .signUp, #signIn .signIn{
