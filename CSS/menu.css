@@ -41,7 +41,7 @@ form {
 }
 
 .product {
-	width:45%;
+	width:30%;
 	height: 150px;
 	text-align:center;
 	position:relative;
@@ -50,6 +50,7 @@ form {
 	transition: all 500ms;
 	box-shadow: -5px 5px 10px var(--shadow-clr);
 	overflow: hidden;
+	background-image: var(--product-clr);
 
 
 }
@@ -64,7 +65,7 @@ form {
 
 .product i{
 	margin: 10px auto;
-	color: var(--dark-clr);
+	color: var(—-text-clr);
 }
 
 .product .desc{
