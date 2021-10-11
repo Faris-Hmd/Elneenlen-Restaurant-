@@ -65,7 +65,7 @@ form {
 
 .product i{
 	margin: 10px auto;
-	color: var(--text-clr);
+	color: var(--product-clr);
 }
 
 .product .desc{
