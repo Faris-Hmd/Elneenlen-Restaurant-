@@ -6,9 +6,9 @@ font-family: 'Nunito', sans-serif;
 	--light-clr: hsla(27, 70%, 75%, 100%);
 	--dark-clr: hsla(27, 80%, 50%, 90%);
 	--primary-clr: #eee;
-	--shadow-clr: #bbb;
+	--shadow-clr: #ccc;
 	--text-clr: #222;
-	--product-clr: linear-gradient(to bottom left, rgba(204, 102, 0,80%),rgba(204, 102, 0,40%));
+	--product-clr: #eee;
 	--side-closeBtn-clr: none;
 	--translate-sideMenu: translateX(-100%);
 	--side-clr: hsla(0, 0%, 80%, 60%);
@@ -18,9 +18,9 @@ font-family: 'Nunito', sans-serif;
 }
 
 .darkMode {
-	--primary-clr: hsla(30, 10%, 15%, 100%);
+	--primary-clr: hsla(30, 0%, 17%, 100%);
 	--light-clr: hsla(27, 70%, 20%, 100%);
-	--shadow-clr: #111;
+	--shadow-clr: #232323;
 	--text-clr: #eee;
-	--product-clr: hsla(30, 10%, 18%, 100%);
+	--product-clr: hsla(30, 0%, 19%, 100%);
 }
