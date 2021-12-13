@@ -50,7 +50,7 @@ form {
 	transition: all 500ms;
 	background: var(--product-clr);
 	overflow: hidden;
-	border: 2px solid var(--shadow-clr);
+	box-shadow: -1px 1px 5px var(--shadow-clr);
 	
 }
 .product:hover{
