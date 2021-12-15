@@ -62,6 +62,7 @@ form {
 }
 
 .product i{
+        font-size: 4ch;
 	margin: 10px auto;
 	color: darkorange;
 }
