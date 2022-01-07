@@ -51,6 +51,7 @@ body {
     rgba(204, 102, 0, 40%)
   );
   -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
 }
 
 .txt {
