@@ -2,14 +2,6 @@
 
 var num = [];
 function display(id) {
-<<<<<<< HEAD
-  var quantity = document.getElementById(id);
-  if (quantity.innerHTML == 0) {
-    quantity.style.transform = "translateY(-200%)";
-  } else {
-    quantity.style.transform = "translateY(0)";
-  }
-=======
 	var quantity = document.getElementById(id);
 	if (quantity.innerHTML == 0){
 
@@ -17,7 +9,6 @@ function display(id) {
 	else{
 
 		quantity.style.transform = ("scale(1)");}
->>>>>>> a1b09079a7ed9130d24dc080c836c767e3dd834f
 }
 
 function icr(typ = 0, cost) {
