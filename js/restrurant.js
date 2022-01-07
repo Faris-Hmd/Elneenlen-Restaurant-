@@ -4,10 +4,10 @@ function display(id) {
 	var quantity = document.getElementById(id);
 	if (quantity.innerHTML == 0){
 
-		quantity.style.transform = ("translateY(-200%)");}
+		quantity.style.transform= ("scale(0)");}
 	else{
 
-		quantity.style.transform = ("translateY(0)");}
+		quantity.style.transform = ("scale(1)");}
 }
 
 
