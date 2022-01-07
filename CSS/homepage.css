@@ -150,7 +150,7 @@ form {
 }
 
 input {
-  width: 70%;
+  width: 80%;
   margin: 30px auto;
   padding: 10px;
   outline: none;
@@ -170,7 +170,7 @@ input::placeholder {
 
 input[type="submit"] {
   display: inline-block;
-  width: 90%;
+  width: 80%;
   border: none;
   margin: 10px auto;
   background-image: linear-gradient(
